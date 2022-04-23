@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    max-width: max-content;
+    margin: auto;
+    
+    
+    
+}
+section {
+    margin: 10px auto 20px;
+    width: 500px;
+    height: 510px;
+    color: white;
+    background-color: black;
+}
+
+.heading {
+    text-align: center;
+    font-family: cursive;
+}
+.input-section {
+   padding: 0.5rem;
+   height: 100px;
+}
+
+table {
+    padding: 10px;
+    margin: 10px auto;
+    border-collapse: collapse;
+    
+    
+    
+}
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid gray;
+
+}
+.delete-cells {
+    border: 0px;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#output {
+    text-align: right;
+    font-size: 3rem;
+    padding-bottom: 3px;
+}
+#input {
+    font-size: 1.3rem;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    section {
+      width: 500px;
+      height: 510px;
+    }
+    .table {
+      width: 420px;
+      height: 350px;
+    }
+  }
+  
+  @media screen and (min-width: 760px) and (max-width: 1000px) {
+    section {
+      width: 600px;
+      height: 800px;
+    }
+    .table {
+      width: 480px;
+      height: 600px;
+    }
+  }
+
+  @media screen and (min-width: 520px) {
+    section {
+      width: 400px;
+      height: 600px;
+    }
+    .table {
+      width: 350px;
+      height: 400px;
+    }
+  }
+@media screen and (max-width: 550px) {
+    section {
+      width: 300px;
+      height: 580px;
+    }
+    .table {
+      width: 250px;
+      height: 450px;
+     
+    }
+    
+  }
+  @media screen and (max-width: 300px) {
+    section {
+      width: 260px;
+      height: 500px;
+    }
+    
+  }
+
+ 
+  
+  
